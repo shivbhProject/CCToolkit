@@ -60,7 +60,7 @@ def banner():
     | |__| |___  | | (_) | (_) | |   <| | |_ 
      \____\____| |_|\___/ \___/|_|_|\_\_|\__|%s%s
 
-                # Coded By IIT Kanpur - @ninja_pandit_
+                # Coded By  - @ninja_pandit_
     """ % (R, W, Y))
     
 # Banner completed
@@ -77,7 +77,7 @@ def filter_currency_developer(orglist):
             # if(app['developerEmail'] == '' or app['developerEmail'].endswith('@gmail.com') or app['developerEmail'].endswith('@hotmail.com') or app['developerEmail'].endswith('@yahoo.com')):
         if(app['developerEmail'].endswith('@gmail.com') or app['developerEmail'].endswith('@hotmail.com') or app['developerEmail'].endswith('@yahoo.com')):
             result.append(app)
-            print("\n\nSuspected App Number: ",count)
+            #print("\n\nSuspected App Number: ",count)
             count+=1
             print("App Title : ",app['title'])
             print("google Play URL: \n")
